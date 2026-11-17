@@ -1,0 +1,39 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Claude Code internals
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets
+.env
+.env.*
+auth.json
+*.key
+*.pem
+
+# Generated media and working output
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.m4a
+*.blend
+*.blend1
+frames/
+sheets/
+review/
+renders/
+clips/
+out/
+output/
+media-ids.json
